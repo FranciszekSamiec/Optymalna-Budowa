@@ -57,3 +57,33 @@ Znajduje jedno z, być może wielu, rozwiązań minimalizujących koszt zakupu p
 - strategia ekologiczna:
 Znajduje jedno z, być może wielu, rozwiązań minimalizujących długość odpadów.
 
+Program
+- czyta ze standardowego wejścia cennik prętów, opis projektu i nazwę strategii,
+
+- za pomocą wskazanej strategii rozwiązuje problem optymalizacyjny,
+
+- pisze na standardowe wyjście rozwiązanie, określając jego jakość, kupione pręty i sposób ich podziału.
+
+Postać danych
+- Dane programu to ciąg wierszy. We wszystkich, z wyjątkiem ostatniego, są liczby całkowite w zapisie dziesiętnym. Między każdą parą liczb sąsiadujących w wierszu jest jedna spacja.
+
+- W pierwszym wierszu danych jest długość cennika C.
+
+- W C kolejnych wierszach są pary dodatnich liczb całkowitych. Pierwsza z tych liczb określa długość pręta a druga to jego cena. Pary są uporządkowane rosnąco po długości pręta.
+
+- Po cenniku jest wiersz z długością projektu P.
+
+- W następnym wierszu jest P dodatnich liczb całkowitych, uporządkowanych niemalejąco. Liczby określają długości odcinków, potrzebnych do realizacji projektu.
+
+- W ostatnim wierszu danych, po projekcie, jest słowo minimalistyczna, maksymalistyczna, ekonomiczna lub ekologiczna, będące nazwą wybranej strategii.
+
+Postać wyniku
+Wynik programu jest ciągiem wierszy z dziesiętnym zapisem liczb całkowitych. Między każdą parą liczb sąsiadujących w wierszu jest jedna spacja.
+
+- W pierwszym wierszu wyniku jest koszt zakupu prętów.
+
+- W drugim wierszu jest łączna długość odpadów.
+
+- Pozostałe wiersze określają sposób podziału kupionych prętów. Dla każdego pręta jest jeden wiersz.
+
+Na początku wiersza określającego podział jest długość pręta. Po niej są długości odcinków, na które pręt został podzielony, z pominięciem ewentualnego pozostałego odpadu. Suma długości odcinków jest więc mniejsza lub równa długości pręta, z którego powstały.
