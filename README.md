@@ -78,6 +78,7 @@ Postać danych
 - W ostatnim wierszu danych, po projekcie, jest słowo minimalistyczna, maksymalistyczna, ekonomiczna lub ekologiczna, będące nazwą wybranej strategii.
 
 Postać wyniku
+
 Wynik programu jest ciągiem wierszy z dziesiętnym zapisem liczb całkowitych. Między każdą parą liczb sąsiadujących w wierszu jest jedna spacja.
 
 - W pierwszym wierszu wyniku jest koszt zakupu prętów.
